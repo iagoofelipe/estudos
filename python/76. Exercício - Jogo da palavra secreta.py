@@ -1,41 +1,24 @@
-palavra_secreta = 'perfume'
-# contagem = 0
-palavra_saida = '*' * len(palavra_secreta)
+palavra_sec = 'perfume'
+palavra_secreta, j = [], 0
 
-# while True:
-#     letra_digitada = input('Digite uma letra: ').lower()
+for i in palavra_sec:
+    palavra_secreta[j] = i
+    j += 1
+j = 0
 
-#     if len(letra_digitada) !=  1:
-#         print('\nDigite apenas uma letra!')
-#         continue
+tamanho_palavra = len(palavra_secreta)
+palavra_digitada = '*' * tamanho_palavra
 
-#     if letra_digitada in palavra_secreta:
-#         for letra in palavra_secreta:
-        
-#             if letra == letra_digitada:
-#                 palavra_saida += letra
-#             else:
-#                 palavra_saida += '*'
-        
-#     contagem += 1
+while True:
+    letra_digitada = input('Digite uma letra: ')
+    tamanho_letra_digitada = len(letra_digitada)
 
-#     print(f'Tentativas: {contagem}\n')
+    if tamanho_letra_digitada > 1:
+        print('Digite apenas uma letra!')
+        continue
 
-#     if palavra_saida == '*' * letra_digitada.count(''):
-#         print('uhuu, fim :3')
-#         break
+    if letra_digitada in palavra_secreta:
+        for i in palavra_secreta:
+            if i == letra_digitada:
+                palavra_secreta[j] = ''
 
-"""
-
-adivinhar palavra secreta, digitar uma letra
-se != 1    não aceitar, 
-
-"""
-letra_out = 'u'
-posicao = 0
-
-for letra in palavra_secreta:
-    if letra_out == letra:
-        palavra_saida = f'{"*" * posicao}letra_out{"*" * (len(palavra_secreta) - posicao)}'
-
-    posicao += 1
