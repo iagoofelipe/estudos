@@ -1,0 +1,24 @@
+typeof(variavel) // tipo de variavel
+
+converter para Number
+
+    Number(var)
+    Number.parseFloat(var) // para float
+    Number.parseInt(var) // para int
+
+converter para String
+
+    String(var)
+    var.toString()
+
+formatando String
+
+    `O aluno ${aluno} tem ${anos} anos` // template string
+    string.length // quantos caracteres a string tem # len() py
+    string.toUpperCase() // maiúsculo # str.upper()
+    string.toLowerCase() // minúsculo
+
+formatando Number
+
+    var n1 = 123.4
+    n1.toFixed(2) // terá duas casas decimais 

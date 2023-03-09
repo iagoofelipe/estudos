@@ -1,0 +1,2 @@
+/* comentar */
+  <br>    quebra de linha
