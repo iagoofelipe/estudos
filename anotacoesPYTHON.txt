@@ -1,8 +1,9 @@
 #---python---#
 
 string
-    str.split([separador]) # serve para separar itens em string, retorna lista
-    str.strip() # remove espaços no começo e fim da string (lstrip remove da esquerda e rstrip da direita)
+    str.split([separador])          # serve para separar itens em string, retorna lista
+    str.strip()                     # remove espaços no começo e fim da string (lstrip remove da esquerda e rstrip da direita)
     str_separador.join(iteravel)    #une iteráveis em uma string, utilizando um separador
+        
         teste = '-'.join(['a','b','c'])
         print(teste) ---> a-b-c
