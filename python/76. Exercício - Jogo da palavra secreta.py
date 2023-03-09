@@ -26,7 +26,9 @@ def professor():
         print(palavra_saida, '\n')
 
         if '*' not in palavra_saida:
-            print('Parabéns!\n', f'{tentativas=}')
+            os.system('cls')
+            print('Parabéns!', f'Tentativas: {tentativas}', 
+                  f'Palavra secreta: {palavra_saida}', sep='\n')
             break
         
         palavra_saida = ''
