@@ -7,3 +7,8 @@ string
         
         teste = '-'.join(['a','b','c'])
         print(teste) ---> a-b-c
+
+Operação ternária >>> condicional de uma linha (if e else em uma linha)
+    condicao = 10 == 10
+    variavel = 'Valor' if condicao else 'Outro Valor'
+    print(variavel) ---> 'Valor'
