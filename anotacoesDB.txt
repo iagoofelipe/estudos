@@ -1,0 +1,27 @@
+import pymysql #módulo
+
+#Conexão com servidor
+
+conexao = pymysql.connect(
+    host = 'localhost',
+    user = 'root',
+    passwd = '',
+    database= 'twdbd'
+)
+
+cursor = conexao.cursor()
+cursor.execute(<parametro>)
+
+
+parametros:
+    criar tabelas:
+        CREATE TABLE <NomeTabela>(<atributos> VARCHAR(255),[atributos...])
+    
+    visualizar tabelas:
+        SHOW TABLES
+    
+    adicionando colunas na tabela:
+        ALTER TABLE <NomeTabela> ADD COLUMN 
+
+    
+
