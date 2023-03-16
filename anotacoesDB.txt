@@ -13,15 +13,15 @@ cursor = conexao.cursor()
 cursor.execute(<parametro>)
 
 
-parametros:
-    criar tabelas:
-        CREATE TABLE <NomeTabela>(<atributos> VARCHAR(255),[atributos...])
+primeiro devemos criar a tabela com o id (adicionar coluna respeitando os atributos   ... ADD COLUMN id INT AUTO_INCREMENT PRIMARY KEY)
+
+parametros para tabela ou db:
+    criar:
+        CREATE {TABLE <NomeTabela>(<atributos> VARCHAR(255),[atributos...]) | DATABASE <NomeDB> }
     
-    visualizar tabelas:
-        SHOW TABLES
+    visualizar:
+        SHOW { TABLES  |  DATABASES }   # para tables, o parâmetro em connect(database=) é necessário
     
     adicionando colunas na tabela:
-        ALTER TABLE <NomeTabela> ADD COLUMN 
-
-    
+        ALTER TABLE <NomeTabela> ADD COLUMN <>
 
