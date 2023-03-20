@@ -1,2 +1,28 @@
-/* comentar */
+<!-- comentar -->
   <br>    quebra de linha
+
+  tag:
+    armazena um conteúdo
+    <NomeTag>
+    conteudo
+    </NomeTag>
+
+  https://validator.w3.org/   para validar o código html
+
+  estrutura html:
+    1. especificar o tipo de arquivo <!doctype html>
+    2. abrir a tag html com lang de linguagem
+      3. tag head, onde os metadados serão informados (como a fonte do css e outras informações do arquivo)
+        3.1 - codificação de caracteres com <meta charset="UTF-8" />   (a / de fechamento é opcional)
+        3.2 - tag title, onde será especificado o título do html
+      4.tag body, onde as informações serão 
+
+
+    <!doctype html>
+    <html lang="pt-BR">
+      <head>
+        <meta charset="UTF-8">
+        <title>Título do HTML</title>
+      </head>        
+    </html>
+
