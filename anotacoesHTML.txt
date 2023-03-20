@@ -21,7 +21,10 @@ Sumário
       4.13 - a href
       4.14 - img
       4.15 - q
-
+      4.16 - span
+      4.17 - blockquote
+      4.18 - hr
+      4.19 - div
 
 
 
@@ -78,10 +81,10 @@ Sumário
     4.13 - <a href="link">LinkNome</a> a href utilizado para links
     4.14 - <img src="LinkImagem" alt="NomeAlternativo"> img utilizado para adicionar imagens no html, o parâmetro alt será utilizado caso a imagem não seja carregada
     4.15 - <q cite="referência">sitação</q> sitação (entre aspas duplas)
+    4.16 - <span></span> container genêrico display inline
 
     utilizados fora de parágrafo
-    <blockquote></blockquote> sitação fora de parágrafo (p)
-    <hr> gera uma linha
-
-    <span></span> container genêrico display inline
-    <div></div> container display block
+    
+    4.17 - <blockquote></blockquote> sitação fora de parágrafo (p)
+    4.18 - <hr> gera uma linha
+    4.19 - <div></div> container display block
