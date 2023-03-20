@@ -1,21 +1,38 @@
 <!-- comentar -->
   <br>    quebra de linha
 
-  tag:
-    armazena um conteúdo
-    <NomeTag>
+Sumário
+  1. Tag
+  2. Estrutura html
+  3. Heading ou tags de cabeçalho
+  4. Estruturas dentro de tags
+    4.1 - italic
+    4.2 - bold
+    4.3 - strong
+    4.4 - emphasis
+    4.5 - a href (link)
+    4.6 - img
+
+
+
+
+1. Tag:
+    armazena um conteúdo, pode conter um identificador único (como um objeto único) e uma classe (como um conjunto de objetos, é possível colocar mais de uma classe para uma mesma tag)
+    <NomeTag id="NomeIdentificador" class="NomeClasse">
     conteudo
     </NomeTag>
 
   https://validator.w3.org/   para validar o código html
 
-  estrutura html:
+2 . Estrutura html:
     1. especificar o tipo de arquivo <!doctype html>
     2. abrir a tag html com lang de linguagem
       3. tag head, onde os metadados serão informados (como a fonte do css e outras informações do arquivo)
         3.1 - codificação de caracteres com <meta charset="UTF-8" />   (a / de fechamento é opcional)
         3.2 - tag title, onde será especificado o título do html
-      4.tag body, onde as informações serão 
+        3.3 - <meta name="viewport" content="width=device-width, initial-scale=1.0"> utilizado para dispositivos móveis, pois utilizam uma janela virtual (viewport),
+              a qual traz a escala correta para o dispositivo.
+      4.tag body, onde as informações serão informadas
 
 
     <!doctype html>
@@ -26,3 +43,19 @@
       </head>        
     </html>
 
+
+3. Heading ou tags de cabeçalho:
+    Utilizado em body, utilizado como um nível hierárquico, vai de h1 até h6
+    <h1></h1>
+
+4. Estruturas dentro de tags:
+  Comumente utilizado em tags que contém texto, como p (parágrafo), h1 (cabeçalho)...
+    4.1 - italic <i></i>
+    4.2 - bold <b></b>
+    4.3 - torna o texto em bold e altera também a semântica, nos casos de pessoas com dificuldades especiais, 
+          o leitor trará ênfase -sonoramente mais forte- para o texto em strong <strong></strong>
+    4.4 - torna o texto em italic e altera também a semântica, nos casos de pessoas com dificuldades especiais, 
+          o leitor trará ênfase -sonoramente diferente- para o texto em emphasis <em></em>
+
+    4.5 - a href utilizado para links <a href="link">LinkNome</a>
+    4.6 - img utilizado para adicionar imagens no html, o parâmetro alt será utilizado caso a imagem não seja carregada <img src="LinkImagem" alt="NomeAlternativo">
