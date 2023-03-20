@@ -6,12 +6,21 @@ Sumário
   2. Estrutura html
   3. Heading ou tags de cabeçalho
   4. Estruturas dentro de tags
-    4.1 - italic
-    4.2 - bold
-    4.3 - strong
-    4.4 - emphasis
-    4.5 - a href (link)
-    4.6 - img
+      4.1 - italic
+      4.2 - bold
+      4.3 - risco
+      4.4 - underline
+      4.5 - small
+      4.6 - sup
+      4.7 - sub
+      4.8 - quebra de linha
+      4.9 - strong
+      4.10 - emphasis 
+      4.11 - del
+      4.12 - ins
+      4.13 - a href
+      4.14 - img
+      4.15 - q
 
 
 
@@ -52,10 +61,27 @@ Sumário
   Comumente utilizado em tags que contém texto, como p (parágrafo), h1 (cabeçalho)...
     4.1 - italic <i></i>
     4.2 - bold <b></b>
-    4.3 - torna o texto em bold e altera também a semântica, nos casos de pessoas com dificuldades especiais, 
-          o leitor trará ênfase -sonoramente mais forte- para o texto em strong <strong></strong>
-    4.4 - torna o texto em italic e altera também a semântica, nos casos de pessoas com dificuldades especiais, 
-          o leitor trará ênfase -sonoramente diferente- para o texto em emphasis <em></em>
+    4.3 - risco <s></s>
+    4.4 - underline <u></u>
+    4.5 - <small></small>  diminui o tamanho
+    4.6 - <sup></sup> potência (elevado)
+    4.7 - <sub></sub> desce (como em logaritmo)
+    4.8 - <br> quebra de linha
 
-    4.5 - a href utilizado para links <a href="link">LinkNome</a>
-    4.6 - img utilizado para adicionar imagens no html, o parâmetro alt será utilizado caso a imagem não seja carregada <img src="LinkImagem" alt="NomeAlternativo">
+    4.9 - <strong></strong> torna o texto em bold e altera também a semântica, nos casos de pessoas com dificuldades especiais, 
+          o leitor trará ênfase -sonoramente mais forte- para o texto em strong
+    4.10 - <em></em> torna o texto em italic e altera também a semântica, nos casos de pessoas com dificuldades especiais, 
+          o leitor trará ênfase -sonoramente diferente- para o texto em emphasis 
+    4.11 - <del></del> del remove determinado elemento (gera um risco) semântico
+    4.12 - <ins></ins> ins insere outro texto (underline) semântico
+
+    4.13 - <a href="link">LinkNome</a> a href utilizado para links
+    4.14 - <img src="LinkImagem" alt="NomeAlternativo"> img utilizado para adicionar imagens no html, o parâmetro alt será utilizado caso a imagem não seja carregada
+    4.15 - <q cite="referência">sitação</q> sitação (entre aspas duplas)
+
+    utilizados fora de parágrafo
+    <blockquote></blockquote> sitação fora de parágrafo (p)
+    <hr> gera uma linha
+
+    <span></span> container genêrico display inline
+    <div></div> container display block
