@@ -5,7 +5,7 @@ Sumário
   1. Tag
   2. Estrutura html
   3. Heading ou tags de cabeçalho
-  4. Estruturas dentro de tags
+  4. Estruturas de tags
       4.1 - italic
       4.2 - bold
       4.3 - risco
@@ -60,7 +60,7 @@ Sumário
     Utilizado em body, utilizado como um nível hierárquico, vai de h1 até h6
     <h1></h1>
 
-4. Estruturas dentro de tags:
+4. Estruturas de tags:
   Comumente utilizado em tags que contém texto, como p (parágrafo), h1 (cabeçalho)...
     4.1 - italic <i></i>
     4.2 - bold <b></b>
@@ -83,7 +83,7 @@ Sumário
     4.15 - <q cite="referência">sitação</q> sitação (entre aspas duplas)
     4.16 - <span></span> container genêrico display inline
 
-    utilizados fora de parágrafo
+    utilizados fora de texto
     
     4.17 - <blockquote></blockquote> sitação fora de parágrafo (p)
     4.18 - <hr> gera uma linha

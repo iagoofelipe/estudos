@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(231, 231, 231);
+    min-width: 50px;
+}
+
+.container-info{
+    border-radius: 10px;
+    background-color: wheat;
+}
+
+#texto{
+    left: 10px;
+    text-align: center;
+}
