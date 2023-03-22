@@ -1,6 +1,32 @@
 * {
     margin: 0;
+    border: 0;
+    font-size: 20px;
 }
+
+.container-heading{
+    border: 1px solid red;    
+    height: 50px;
+}
+
+.button-top {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(160, 0, 0);
+    float: right;
+    border-radius: 25px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
 
 /* .heading{
     background-color: rgb(194, 0, 0);
@@ -15,7 +41,7 @@
     border-radius: 10px;
     margin-left: 15px;
 } */
-.container-menu{
+/* .container-menu{
     background-color: lightblue;
     width: 250px;
 }
@@ -37,4 +63,5 @@
     border-radius: 10px;
     background-color: rgba(175, 0, 0, 0.925);
     text-align: center;
-}
+} */
+

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <!-- <script src="script.js"></script> -->
+
 </head>
     <body>
         <!-- Sidebar -->
@@ -13,16 +15,17 @@
             <h3 class="menu">Menu</h3>
             <a href="#quarto" class="item">Link 1</a>
             <a href="#" class="item">Link 2</a>
-            <a href="#" class="item">Link 3</a>
+            <a href="#sexto" class="item">Sexto</a>
         </nav>
         <main style="margin-left:200px">
             <header style="margin: 1%;"">
                 <!-- cadastrados -->
                 <h1>primeiro</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                <p style="height: 1000px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                     Mollitia, repellat. Accusamus, earum quae totam minus unde 
                     libero nemo impedit omnis nisi odit quisquam excepturi deserunt 
                     in ducimus consectetur, aut doloremque.</p>
+                    
 
                 <h1>segundo</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
@@ -40,7 +43,7 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                     Mollitia, repellat. Accusamus, earum quae totam minus unde 
                     libero nemo impedit omnis nisi odit quisquam excepturi deserunt 
-                    in ducimus consectetur, aut doloremque.</p>
+                    in ducimus consectetur, aut doloremque. <a id="element" href="https://youtube.com"><img src="logo.png" alt="#"></a></p>
                 
                 <h1>quinto</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
@@ -48,7 +51,7 @@
                     libero nemo impedit omnis nisi odit quisquam excepturi deserunt 
                     in ducimus consectetur, aut doloremque.</p>
                     
-                <h1>sexto</h1>
+                <h1 id="sexto">sexto</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                         Mollitia, repellat. Accusamus, earum quae totam minus unde 
                         libero nemo impedit omnis nisi odit quisquam excepturi deserunt 
@@ -56,4 +59,9 @@
             </header>
         </main>
     </body>
+
+    <script>
+        document.getElementById("element").style.display = "none";
+    </script>
+
 </html>
