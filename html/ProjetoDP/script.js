@@ -1,1 +1,0 @@
-document.getElementById("element").style.display = "none";
