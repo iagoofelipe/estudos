@@ -78,7 +78,7 @@ Sumário
     4.11 - <del></del> del remove determinado elemento (gera um risco) semântico
     4.12 - <ins></ins> ins insere outro texto (underline) semântico
 
-    4.13 - <a href="link">LinkNome</a> a href utilizado para links
+    4.13 - <a href="link">LinkNome</a> a (âncora) utilizado para links
     4.14 - <img src="LinkImagem" alt="NomeAlternativo"> img utilizado para adicionar imagens no html, o parâmetro alt será utilizado caso a imagem não seja carregada
     4.15 - <q cite="referência">sitação</q> sitação (entre aspas duplas)
     4.16 - <span></span> container genêrico display inline
@@ -88,3 +88,12 @@ Sumário
     4.17 - <blockquote></blockquote> sitação fora de parágrafo (p)
     4.18 - <hr> gera uma linha
     4.19 - <div></div> container display block
+
+    ul (unordered list) lista não ordenada, onde li (list item) são seus itens
+      <ul>
+        <li>...</li>
+      </ul>
+    ol (ordered list) lista ordenada, utilizada onde é necessário seguir uma ordem, onde li (list item) são seus itens
+      <ol>
+        <li>...</li>
+      </ol>
