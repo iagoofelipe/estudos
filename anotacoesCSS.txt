@@ -1,5 +1,13 @@
 Sintaxe:
     seletor { propriedade: valor;}
 
-box model:
-    
+Pseudo-classes:
+	a:link{...}  
+	a:visited{...} quando acessado
+	a:hover{...} mouse sobre
+	a:active{...} quando clicar
+
+list-style:
+	list-style-type
+	list-style-position
+	list-style-image

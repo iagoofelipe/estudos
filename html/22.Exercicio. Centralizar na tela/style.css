@@ -1,0 +1,44 @@
+body{
+    width: 80%;
+    margin: auto;/* centraliza os elementos */
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(252, 150, 150);
+    padding: 5px;
+
+    border-bottom: 1px solid red;
+    color: red;
+}
+
+h2{
+    font-size: 16px;
+    color: rgb(88, 88, 88);
+}
+
+header h1{
+    background-color: rgb(255, 187, 0);
+    color: rgb(165, 128, 42);
+    text-align: center;
+    border: none;
+}
+
+.azul{
+    color: blue;
+    font-size: 18px;
+    display: inline;
+}
+.tempo{
+    font-size: 17px;
+    display: inline;   
+    color: rgb(88, 88, 88);
+}
+
+h3{
+    color: rgb(128, 127, 127);
+}

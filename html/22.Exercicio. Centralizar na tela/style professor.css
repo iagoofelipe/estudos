@@ -1,0 +1,39 @@
+body{
+    width: 80%;
+    margin: auto;/* centraliza os elementos */
+    font-size: 14px;
+    font-family: Verdana, Helvetica, sans-serif;
+    color: #444;
+}
+
+h1{
+    color: rgb(195, 102, 21);
+    text-align: center;
+    background-color: rgb(253, 188, 114);
+    font-size: 30px;
+}
+
+h2{
+    color: red;
+    background-color: rgb(255, 157, 157);
+    font-size: 25px;
+    border-bottom: 2px solid red;
+    padding: 10px;
+}
+
+ul{
+    padding-left: 0;
+}
+
+li{
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
