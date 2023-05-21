@@ -4,13 +4,18 @@ class Application:
     def __init__(self):
         self.root = tk.Tk()
         self.widget1 = tk.Frame(self.root, background='#dff186')
+        self.janela2 = tk.Frame(self.root, bg='red')
+        self.janela2.pack()
 
         self.root.title('Central Suporte') # título da janela
         # self.root.attributes('-alpha', 0.5) # transparência
+        self.root.maxsize(300, 600)
         self.widget1.pack()
 
         # adicionando texto
         self.msg = tk.Label(self.widget1, text="Primeiro widget", background='#dff186')
+        self.msg2 = tk.Label(self.janela2, text="Primeiro widget", background='#dff186')
+        self.msg2.pack()
         self.msg["font"] = ("Verdana", "10", "italic", "bold")
         self.msg.pack()
 
@@ -43,13 +48,11 @@ class Application:
              self.msg["text"] = "Primeiro widget"
 
         
-
-
     def mainloop(self):
         self.root.mainloop()
 
 
-    def geometry(self, height=200, width=300):
+    def geometry(self, height=600, width=300):
             """ definindo geometria e centralizamento """
 
             # get the screen dimension
@@ -66,9 +69,6 @@ class Application:
 
 
 if __name__ == '__main__':
-    # root = tk.Tk()
     
     root = Application()
-    root.geometry(300,300)
-    
     root.mainloop()

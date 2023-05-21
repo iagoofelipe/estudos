@@ -18,16 +18,17 @@ class Application:
         self.frame_direito.grid(row=0, column=1, padx=10, pady=5)
 
         # carregando a imagem para ser "editada"
-        Label(self.frame_esquerdo, text="Original Image").grid(row=0, column=0, padx=5, pady=5)
-
+        self.imageLabel = Label(self.frame_esquerdo, text="Original Image")
+        self.imageLabel.grid(row=0, column=0, padx=5, pady=5)
 
         # criando frames e labbels no frame_esquerdo
         self.image = PhotoImage(file=r"E:\git\estudos\python\tkinter\gif.gif")
         self.original_image = self.image.subsample(3,3)  # redimensionando imagem usando subsample
-        Label(self.frame_esquerdo, image=self.original_image).grid(row=1, column=0, padx=5, pady=5)
+        self.imageLabel_left = Label(self.frame_esquerdo, image=self.original_image).grid(row=1, column=0, padx=5, pady=5)
 
         # Display image in right_frame
-        Label(self.frame_direito, image=self.image).grid(row=0,column=0, padx=5, pady=5)
+        self.imageLabel_right = Label(self.frame_direito, image=self.image)
+        self.imageLabel_right.grid(row=0,column=0, padx=5, pady=5)
 
         # Create tool bar frame
         self.tool_bar = Frame(self.frame_esquerdo, width=180, height=185)
