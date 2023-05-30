@@ -19,7 +19,7 @@ class Application:
         self.root.config(background=self.bg_color)
         
         # variáveis de fluxo - utilizadas em outras funções e métodos
-        self.users = ['HEVERTON', 'IAGO']
+        self.users = ['HEVERTON', 'IAGO', '']
         self.button_color = '#bcbcbc'
         self.button_clicked_color = '#999999'
 

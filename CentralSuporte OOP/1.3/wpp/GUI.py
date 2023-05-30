@@ -42,15 +42,17 @@ class GUI:
     
 
     def _container_valores(self):
-        self.container_valores = Frame(self.container_center, background='lightgray')
-        # self.container_valores.place(relx=0.05, rely=0.15, relheight=0.55, relwidth=0.89)
-        self.container_valores.grid(row=0, column=1)
+        background = 'lightgray'
+        self.container_valores = Frame(self.container_center, background=background)
+        self.container_valores.place(relx=0.05, rely=0.15, relheight=0.55, relwidth=0.89)
 
         def line(relx, rely, relheight, relwidth): # padrão linha horizontal centralizada na tela
             Frame(self.container_valores, background='white').place(relx=relx, rely=rely, relheight=relheight, relwidth=relwidth)
 
-        Label(self.container_valores, text='Atendentes')
+        Label(self.container_valores, text='Atendentes', background=background).place(relx=0.15, rely=0.01)
+        Label(self.container_valores, text='Contagem', background=background).place(relx=0.65, rely=0.01)
+        
 
-        # line(relx=0.499, rely=0, relheight=1, relwidth=0.001)
-        # line(relx=0, rely=0.1, relheight=0.001, relwidth=1)
+        line(relx=0.499, rely=0, relheight=1, relwidth=0.001)
+        line(relx=0, rely=0.1, relheight=0.001, relwidth=1)
 
