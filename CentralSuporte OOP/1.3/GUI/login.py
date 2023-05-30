@@ -46,7 +46,3 @@ class Login:
             self.container.destroy()
             self.master.user = usuario
             self.master.menu(self.master)
-
-    
-
-# Tk().configure()
