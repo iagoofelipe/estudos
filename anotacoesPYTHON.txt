@@ -12,3 +12,10 @@ Operação ternária >>> condicional de uma linha (if e else em uma linha)
     condicao = 10 == 10
     variavel = 'Valor' if condicao else 'Outro Valor'
     print(variavel) ---> 'Valor'
+
+
+funções
+    Higher Order Functions - Funções que podem receber e/ou retornar outras funções
+    First-Class Functions - Funções que são tratadas como outros tipos de dados comuns (strings, inteiros, etc...)
+
+    Closure - é o fechamento da execução, quando todo processo é finalizado
